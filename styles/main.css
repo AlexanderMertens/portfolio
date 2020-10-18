@@ -7,21 +7,31 @@ html {
   background-color: #a8c9de;
 }
 
+h1, h2, h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6.2rem;
+  line-height: 6.2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 400;
+  color: #398CBF;
+}
+
 /* HEADER */
 .page-header {
   font-family: "Karla", Arial, Helvetica, sans-serif;
-  font-size: 3.2rem;
-  font-weight: 600;
-  line-height: 6rem;
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-}
-
-.page-header h1 {
-  margin: 0;
-  font-weight: bold;
 }
 
 .page-header ul {
