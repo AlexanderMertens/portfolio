@@ -7,6 +7,10 @@ html {
   background-color: #a8c9de;
 }
 
+body {
+  margin: 0;
+}
+
 h1, h2, h3 {
   margin: 0;
   font-weight: bold;
@@ -118,10 +122,14 @@ blockquote {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  text-align: center;
+  border-style: solid none;
+  border-color: #1b3659;
+  border-width: 2px;
+  width: 1000px;
 }
 
-blockquote p + p {
+blockquote p {
   color: black;
   opacity: 0.5;
 }
