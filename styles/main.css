@@ -95,7 +95,7 @@ main {
 }
 
 section#introduction {
-  margin: 25px 0px 20px;
+  margin: 80px 0px 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
