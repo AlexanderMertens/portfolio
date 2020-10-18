@@ -55,16 +55,38 @@ main {
   margin: 30px;
 }
 
-main img {
+section#introduction {
+  margin: 25px 0px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#introduction figure {
+  max-width: 600px;
+  height: auto;
+  justify-self: right;
+  padding-right: 10px;
+  margin: 0;
+}
+
+#introduction img {
   max-width: 600px;
   height: auto;
 }
 
-blockquote {
-  color: #398CBF;
+#introduction .text-block {
+  padding-left: 10px;
 }
 
-blockquote p + p{
+blockquote {
+  color: #398CBF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+blockquote p + p {
   color: black;
   opacity: 0.5;
 }
