@@ -12,7 +12,7 @@ html {
   font-family: "Karla", Arial, Helvetica, sans-serif;
   font-size: 3.2rem;
   font-weight: 600;
-  line-height: 4rem;
+  line-height: 6rem;
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -21,6 +21,7 @@ html {
 
 .page-header h1 {
   margin: 0;
+  font-weight: bold;
 }
 
 .page-header ul {
@@ -37,6 +38,8 @@ html {
   justify-content: flex-end;
   margin-left: 731px;
   display: flex;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 
 .socials-nav img{
@@ -45,9 +48,14 @@ html {
   margin-left: 10px;
 }
 
-.main-nav {
-  font-size: 1.6rem;
+.main-nav li {
+  margin-right: 35px;
+  font-weight: 300;
+}
+
+.main-nav a{
   color: #a7514a;
+  text-decoration: none;
 }
 
 /* MAIN */
