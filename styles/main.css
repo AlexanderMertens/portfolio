@@ -53,7 +53,7 @@ h2 {
 .socials-nav {
   display: flex;
   justify-content: flex-end;
-  margin-left: 695px;
+  margin-left: calc(100% - 924.75px);
   display: flex;
 }
 
