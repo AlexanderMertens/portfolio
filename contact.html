@@ -46,9 +46,29 @@
         </ul>
       </nav>
     </header>
-    <main>
 
+    <main>
+      <form action="post-demo.php" method="post">
+        <ul>
+          <li>
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam" />
+          </li>
+          <li>
+            <label for="e-mail">E-mail:</label>
+            <input type="e-mail" id="e-mail" name="e-mail" />
+          </li>
+          <li>
+            <label for="boodschap">Boodschap:</label>
+            <textarea id="boodschap" name="boodschap"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit" value="Verstuur">Verzend.</button>
+          </li>
+        </ul>
+      </form>
     </main>
+
     <footer class="page-footer">
       <div class="content">
         <address><a href="mailto:alexander.mertens@student.thomasmore.be">alexander.mertens@student.thomasmore.be</a></address>
