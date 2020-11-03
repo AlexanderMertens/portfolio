@@ -13,7 +13,6 @@ body {
 
 h1, h2, h3 {
   margin: 0;
-  font-weight: bold;
 }
 
 h1 {
@@ -35,7 +34,7 @@ h2 {
   margin: 30px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 .page-header ul {
@@ -50,16 +49,10 @@ h2 {
   display: inline-block;
 }
 
-.socials-nav {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: calc(100% - 924.75px);
-  display: flex;
-}
-
 .socials-nav img:hover,
 .socials-nav img:focus {
   opacity: 1;
+  transform: scale(1.1);
 }
 
 .socials-nav img{
@@ -84,7 +77,8 @@ h2 {
 }
 
 .main-nav a:hover,
-.main-nav a:focus {
+.main-nav a:focus,
+.main-nav a.active {
   text-decoration: underline;
   text-decoration-color: #a7514a;
 }
@@ -136,10 +130,8 @@ blockquote p {
 
 /* FOOTER */
 .page-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
+  padding: 10px 0;
   border-top-style: solid;
   border-color: #1b3659;
   border-width: 2px;
@@ -152,7 +144,8 @@ blockquote p {
   margin: 0 30px;
 }
 
-.page-footer address {
+.page-footer address,
+.page-footer p {
   margin: 10px 0;
 }
 
