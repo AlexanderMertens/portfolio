@@ -1,8 +1,8 @@
 html {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 1.1rem;
+  line-height: 22px;
   color: #1b3659;
   background-color: #a8c9de;
 }
@@ -18,16 +18,24 @@ h3 {
 }
 
 h1 {
-  font-size: 5.5rem;
-  line-height: 5.5rem;
+  font-size: 88px;
+  line-height: 88px;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 3.5rem;
-  line-height: 3.5rem;
+  font-size: 56px;
+  line-height: 56px;
   font-weight: 400;
   color: #398cbf;
+}
+
+.text-block {
+  max-width: 600px;
+}
+
+.text-block p {
+  margin: 5px 0 20px;
 }
 
 /* HEADER */
@@ -42,8 +50,8 @@ h2 {
 .page-header ul {
   margin: 0;
   padding: 0;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 40px;
+  line-height: 40px;
   font-weight: 300;
 }
 
@@ -85,7 +93,7 @@ h2 {
   text-decoration-color: #a7514a;
 }
 
-/* MAIN */
+/* MAIN ABOUT ME*/
 main {
   margin: 30px;
 }
@@ -129,6 +137,8 @@ blockquote p {
   opacity: 0.5;
 }
 
+/* PROJECTS SUMMARY PAGE */
+
 /* CONTACT FORM*/
 .contact-form {
   max-width: 400px;
@@ -154,8 +164,8 @@ blockquote p {
   border: 0;
   margin: 0;
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 20px;
+  line-height: 28px;
   background-color: #1b3659;
   color: white;
 }
@@ -166,8 +176,8 @@ blockquote p {
 
 .contact-form button {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 20px;
+  line-height: 28px;
   background-color: #a8c9de;
   border: 5px solid #1b3659;
   cursor: pointer;
@@ -190,8 +200,6 @@ blockquote p {
   border-top-style: solid;
   border-color: #1b3659;
   border-width: 2px;
-  font-size: 1rem;
-  line-height: 1.1rem;
   background-color: #a7514a;
   position: absolute;
   bottom: 0;
