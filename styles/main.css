@@ -11,7 +11,9 @@ body {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -25,7 +27,7 @@ h2 {
   font-size: 3.5rem;
   line-height: 3.5rem;
   font-weight: 400;
-  color: #398CBF;
+  color: #398cbf;
 }
 
 /* HEADER */
@@ -55,7 +57,7 @@ h2 {
   transform: scale(1.1);
 }
 
-.socials-nav img{
+.socials-nav img {
   max-width: 30px;
   height: auto;
   margin-left: 10px;
@@ -66,7 +68,7 @@ h2 {
   margin-right: 60px;
 }
 
-.main-nav a{
+.main-nav a {
   color: #a7514a;
   text-decoration: none;
 }
@@ -112,7 +114,7 @@ section#introduction {
 }
 
 blockquote {
-  color: #398CBF;
+  color: #398cbf;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -126,6 +128,60 @@ blockquote {
 blockquote p {
   color: black;
   opacity: 0.5;
+}
+
+/* CONTACT FORM*/
+.contact-form {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.contact-form ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.contact-form ul li {
+  display: block;
+  margin: 8px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 370px;
+  padding: 0 10px;
+  border: 0;
+  margin: 0;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  background-color: #1b3659;
+  color: white;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  background-color: #a8c9de;
+  border: 5px solid #1b3659;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
 }
 
 /* FOOTER */

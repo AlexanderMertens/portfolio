@@ -48,22 +48,32 @@
     </header>
 
     <main>
-      <form action="post-demo.php" method="post">
+      <form action="post-demo.php" method="post" class="contact-form">
+        <h2>Contact</h2>
         <ul>
           <li>
-            <label for="naam">Naam:</label>
-            <input type="text" id="naam" name="naam" />
+            <label for="naam" class="visually-hidden">Naam:</label>
+            <input type="text" id="naam" name="naam" placeholder="Naam" />
           </li>
           <li>
-            <label for="e-mail">E-mail:</label>
-            <input type="e-mail" id="e-mail" name="e-mail" />
+            <label for="e-mail" class="visually-hidden">E-mail:</label>
+            <input
+              type="e-mail"
+              id="e-mail"
+              name="e-mail"
+              placeholder="E-mail"
+            />
           </li>
           <li>
-            <label for="boodschap">Boodschap:</label>
-            <textarea id="boodschap" name="boodschap"></textarea>
+            <label for="boodschap" class="visually-hidden">Boodschap:</label>
+            <textarea
+              id="boodschap"
+              name="boodschap"
+              placeholder="Uw boodschap"
+            ></textarea>
           </li>
           <li class="button">
-            <button type="submit" value="Verstuur">Verzend.</button>
+            <button type="submit" value="Verstuur">Verzend</button>
           </li>
         </ul>
       </form>
@@ -71,7 +81,11 @@
 
     <footer class="page-footer">
       <div class="content">
-        <address><a href="mailto:alexander.mertens@student.thomasmore.be">alexander.mertens@student.thomasmore.be</a></address>
+        <address>
+          <a href="mailto:alexander.mertens@student.thomasmore.be"
+            >alexander.mertens@student.thomasmore.be</a
+          >
+        </address>
         <p><a href="https://www.thomasmore.be/">Student aan Thomas More</a></p>
       </div>
     </footer>
