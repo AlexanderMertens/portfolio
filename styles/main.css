@@ -264,18 +264,13 @@ blockquote p {
 
 /* FOOTER */
 .page-footer {
-  width: 100%;
-  padding: 0;
+  padding: 0 calc((100% - 1380px) / 2);
   border-top-style: solid;
   border-color: #1b3659;
   border-width: 2px;
   background-color: #a7514a;
   position: fixed;
   bottom: 0;
-}
-
-.page-footer .content {
-  margin: 0 30px;
 }
 
 .page-footer address,
