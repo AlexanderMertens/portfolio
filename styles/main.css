@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+header, main, footer {
+  width: 1380px; /*1440 - 2 * 30 (margin) px */
+  padding: 0 calc((100% - 1440px) / 2);
+}
+
 h1,
 h2,
 h3 {
@@ -95,11 +100,11 @@ h2 {
 
 /* MAIN ABOUT ME*/
 main {
-  margin: 30px;
+  margin: 20px;
 }
 
 section#introduction {
-  margin: 40px 0 40px;
+  margin: 0 0 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -241,7 +246,7 @@ blockquote p {
   border-color: #1b3659;
   border-width: 2px;
   background-color: #a7514a;
-  position: absolute;
+  position: fixed;
   bottom: 0;
 }
 
