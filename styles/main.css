@@ -138,6 +138,27 @@ blockquote p {
 }
 
 /* PROJECTS SUMMARY PAGE */
+.projecten-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projecten-container figure {
+  max-width: 250px;
+  height: auto;
+  margin: 20px 10px 0 0;
+  border: 2px solid #1b3659;
+}
+
+.projecten-container img {
+  display: block;
+  max-width: 250px;
+  height: auto;
+}
+
+.project-summary {
+  text-decoration: none;
+}
 
 /* CONTACT FORM*/
 .contact-form {
