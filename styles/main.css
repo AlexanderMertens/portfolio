@@ -143,11 +143,30 @@ blockquote p {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.projecten-container article {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.projecten-container article h2 {
+  width: 100%;
+}
+
 .projecten-container figure {
+  display: inline-block;
   max-width: 250px;
   height: auto;
-  margin: 20px 10px 0 0;
+  margin: 20px 0 0 0;
   border: 2px solid #1b3659;
+}
+
+.projecten-container p {
+  display: inline-block;
+  width: 150px;
+  margin-left: 10px;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .projecten-container img {
