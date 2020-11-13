@@ -35,6 +35,10 @@ h2 {
   color: #398cbf;
 }
 
+h2.page-title {
+  margin-bottom: 20px;
+}
+
 .text-block {
   max-width: 600px;
 }
@@ -103,27 +107,44 @@ main {
   margin: 20px;
 }
 
-section#introduction {
+section.two-split{
   margin: 0 0 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-#introduction figure {
+.two-split figure {
   max-width: 600px;
   height: auto;
+}
+
+.two-split img, 
+.two-split video {
+  max-width: 600px;
+  height: auto;
+}
+
+.two-split:last-child {
+  margin-bottom: 80px;
+}
+
+.left {
   justify-self: right;
-  padding-right: 10px;
-  margin: 0;
+  margin: 0 10px 0 0;
 }
 
-#introduction img {
-  max-width: 600px;
-  height: auto;
+.right {
+  justify-self: left;
+  margin: 0 0 0 10px;
 }
 
-#introduction .text-block {
-  padding-left: 10px;
+.two-split img,
+.two-split video {
+  display: block;
+}
+
+figure.bordered {
+  border: 2px solid #1b3659;
 }
 
 blockquote {
@@ -140,6 +161,10 @@ blockquote {
 blockquote p {
   color: black;
   opacity: 0.5;
+}
+
+.centered {
+  text-align: center;
 }
 
 /* PROJECTS SUMMARY PAGE */
@@ -163,7 +188,6 @@ blockquote p {
   max-width: 250px;
   height: auto;
   margin: 20px 0 0 0;
-  border: 2px solid #1b3659;
 }
 
 .projecten-container p {
