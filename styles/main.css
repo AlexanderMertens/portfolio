@@ -113,7 +113,7 @@ h2.page-title {
   margin: 0 0 2.8vw;
 }
 
-@media only screen and (min-device-width: 700px) {
+@media only screen and (min-width: 700px) {
   .two-split {
     justify-content: center;
   }
@@ -137,11 +137,11 @@ h2.page-title {
   }
 }
 
-@media only screen and (max-device-width: 699px) {
+@media only screen and (max-width: 699px) {
   .two-split {
     justify-content: flex-start;
     max-width: 80vw;
-    margin: 0 auto;
+    margin: 0 auto 2.8vw;
   }
 
   .two-split figure {
@@ -204,30 +204,58 @@ blockquote p {
 
 /* PROJECTS SUMMARY PAGE */
 .projecten-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .projecten-container article {
+  margin-right: 2vw;
+}
+
+.flex {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.projecten-container article h2 {
-  width: 100%;
+@media only screen and (max-width: 1199px) {
+  .projecten-container article {
+    max-width: 46vw;
+  }
+
+  .projecten-container figure,
+  .projecten-container img {
+    max-width: 24vw;
+  }
+
+  .projecten-container p {
+    max-width: 19vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .projecten-container article {
+    max-width: 30vw;
+  }
+
+  .projecten-container figure,
+  .projecten-container img {
+    max-width: 16vw;
+  }
+
+  .projecten-container p {
+    max-width: 12vw;
+  }
 }
 
 .projecten-container figure {
   display: inline-block;
-  max-width: 17vw;
-  height: auto;
+  height: 100%;
   margin: 1.4vw 0 0 0;
 }
 
 .projecten-container p {
   display: inline-block;
-  width: 10vw;
   margin-left: 1.4vw;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -235,12 +263,11 @@ blockquote p {
 
 .projecten-container img {
   display: block;
-  max-width: 17vw;
-  height: auto;
 }
 
 .project-summary {
   text-decoration: none;
+  color: #1b3659;
 }
 
 /* CONTACT FORM*/
