@@ -15,7 +15,11 @@ header,
 main,
 footer {
   width: 96vw;
-  padding: 0 4vw;
+  padding: 0;
+}
+
+main {
+  margin: 2vw;
 }
 
 h1,
@@ -25,8 +29,8 @@ h3 {
 }
 
 h1 {
-  font-size: 6vw;
-  line-height: 6vw;
+  font-size: 6.1vw;
+  line-height: 6.1vw;
   font-weight: 600;
 }
 
@@ -43,21 +47,21 @@ h2 {
 }
 
 h2.page-title {
-  margin-bottom: 20px;
+  margin-bottom: 1.5vw;
 }
 
 .text-block {
-  max-width: 600px;
+  max-width: 41vw;
 }
 
 .text-block p {
-  margin: 5px 0 20px;
+  margin: 0.4vw 0 2vw;
 }
 
 /* HEADER */
 .page-header {
   font-family: "Karla", Arial, Helvetica, sans-serif;
-  margin: 10px 30px 30px;
+  margin: 0.7vw 2vw 2vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -66,8 +70,8 @@ h2.page-title {
 .page-header ul {
   margin: 0;
   padding: 0;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 2.8vw;
+  line-height: 2.8vw;
   font-weight: 300;
 }
 
@@ -82,14 +86,14 @@ h2.page-title {
 }
 
 .socials-nav img {
-  max-width: 30px;
+  max-width: 2vw;
   height: auto;
-  margin-left: 10px;
+  margin-left: 0.7vw;
   opacity: 0.7;
 }
 
 .main-nav li {
-  margin-right: 60px;
+  margin-right: 4.2vw;
 }
 
 .main-nav a {
@@ -110,39 +114,36 @@ h2.page-title {
 }
 
 /* MAIN ABOUT ME*/
-main {
-  margin: 20px;
-}
 
 section.two-split {
-  margin: 0 0 40px;
+  margin: 0 0 2.8vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .two-split figure {
-  max-width: 600px;
+  max-width: 40vw;
   height: auto;
 }
 
 .two-split img,
 .two-split video {
-  max-width: 600px;
+  max-width: 40vw;
   height: auto;
 }
 
 .two-split:last-child {
-  margin-bottom: 80px;
+  margin-bottom: 5.6vw;
 }
 
 .left {
   justify-self: right;
-  margin: 0 10px 0 0;
+  margin: 0 0.7vw 0 0;
 }
 
 .right {
   justify-self: left;
-  margin: 0 0 0 10px;
+  margin: 0 0 0 0.7vw;
 }
 
 .two-split img,
@@ -162,7 +163,7 @@ blockquote {
   border-style: solid none;
   border-color: #1b3659;
   border-width: 2px;
-  width: 1000px;
+  width: 67vw;
 }
 
 blockquote p {
@@ -192,22 +193,22 @@ blockquote p {
 
 .projecten-container figure {
   display: inline-block;
-  max-width: 250px;
+  max-width: 17vw;
   height: auto;
-  margin: 20px 0 0 0;
+  margin: 1.4vw 0 0 0;
 }
 
 .projecten-container p {
   display: inline-block;
-  width: 150px;
-  margin-left: 10px;
-  font-size: 14px;
-  line-height: 18px;
+  width: 10vw;
+  margin-left: 1.4vw;
+  font-size: 1vw;
+  line-height: 1.25vw;
 }
 
 .projecten-container img {
   display: block;
-  max-width: 250px;
+  max-width: 17vw;
   height: auto;
 }
 
@@ -217,31 +218,31 @@ blockquote p {
 
 /* CONTACT FORM*/
 .contact-form {
-  max-width: 400px;
-  padding: 15px;
+  max-width: 29vw;
+  padding: 1vw;
   margin: 0 auto;
 }
 
 .contact-form ul {
-  margin: 20px 0;
+  margin: 1.4vw 0;
   padding: 0;
   list-style-type: none;
 }
 
 .contact-form ul li {
   display: block;
-  margin: 8px 0;
+  margin: 0.5vw 0;
 }
 
 .contact-form input,
 .contact-form textarea {
-  width: 370px;
-  padding: 0 10px;
+  width: 28vw;
+  padding: 0 0.7vw;
   border: 0;
   margin: 0;
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.4vw;
+  line-height: 2vw;
   background-color: #1b3659;
   color: white;
 }
@@ -252,10 +253,10 @@ blockquote p {
 
 .contact-form button {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.4vw;
+  line-height: 2vw;
   background-color: #a8c9de;
-  border: 5px solid #1b3659;
+  border: 0.4vw solid #1b3659;
   cursor: pointer;
 }
 
@@ -271,7 +272,7 @@ blockquote p {
 
 /* FOOTER */
 .page-footer {
-  padding: 0 calc((100% - 1380px) / 2);
+  padding: 0 2vw;
   border-top-style: solid;
   border-color: #1b3659;
   border-width: 2px;
@@ -282,7 +283,7 @@ blockquote p {
 
 .page-footer address,
 .page-footer p {
-  margin: 10px 0;
+  margin: 0.7vw 0;
 }
 
 .page-footer a {
