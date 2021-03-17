@@ -1,8 +1,8 @@
 html {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 1.25vw;
+  font-size: calc(0.2em + 0.8vw);
   font-weight: 400;
-  line-height: 1.5vw;
+  line-height: 1.25em;
   color: #1b3659;
   background-color: #a8c9de;
 }
@@ -29,8 +29,8 @@ h3 {
 }
 
 h1 {
-  font-size: 6.1vw;
-  line-height: 6.1vw;
+  font-size: 6rem;
+  line-height: 6rem;
   font-weight: 600;
 }
 
@@ -40,8 +40,8 @@ h1 a {
 }
 
 h2 {
-  font-size: 4vw;
-  line-height: 4vw;
+  font-size: 4rem;
+  line-height: 4rem;
   font-weight: 400;
   color: #398cbf;
 }
@@ -70,8 +70,8 @@ h2.page-title {
 .page-header ul {
   margin: 0;
   padding: 0;
-  font-size: 2.8vw;
-  line-height: 2.8vw;
+  font-size: 2.8rem;
+  line-height: 2.8rem;
   font-weight: 300;
 }
 
@@ -93,7 +93,7 @@ h2.page-title {
 }
 
 .main-nav li {
-  margin-right: 4.2vw;
+  margin-right: 4.1vw;
 }
 
 .main-nav a {
@@ -202,8 +202,8 @@ blockquote p {
   display: inline-block;
   width: 10vw;
   margin-left: 1.4vw;
-  font-size: 1vw;
-  line-height: 1.25vw;
+  font-size: 1rem;
+  line-height: 1.25rem;
 }
 
 .projecten-container img {
@@ -241,8 +241,8 @@ blockquote p {
   border: 0;
   margin: 0;
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 1.4vw;
-  line-height: 2vw;
+  font-size: 1.4rem;
+  line-height: 2rem;
   background-color: #1b3659;
   color: white;
 }
@@ -254,8 +254,8 @@ blockquote p {
 
 .contact-form button {
   font-family: "Lato", Arial, Helvetica, sans-serif;
-  font-size: 1.4vw;
-  line-height: 2vw;
+  font-size: 1.4rem;
+  line-height: 2rem;
   background-color: #a8c9de;
   border: 0.4vw solid #1b3659;
   cursor: pointer;
