@@ -50,14 +50,6 @@ h2.page-title {
   margin-bottom: 1.5vw;
 }
 
-.text-block {
-  max-width: 41vw;
-}
-
-.text-block p {
-  margin: 0.4vw 0 2vw;
-}
-
 /* HEADER */
 .page-header {
   font-family: "Karla", Arial, Helvetica, sans-serif;
@@ -115,35 +107,70 @@ h2.page-title {
 
 /* MAIN ABOUT ME*/
 
-section.two-split {
+.two-split {
+  display: flex;
+  flex-flow: row wrap;
   margin: 0 0 2.8vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
-.two-split figure {
-  max-width: 40vw;
-  height: auto;
+@media only screen and (min-device-width: 700px) {
+  .two-split {
+    justify-content: center;
+  }
+  .two-split figure,
+  .two-split img,
+  .two-split video {
+    max-width: 40vw;
+    height: auto;
+    margin: 0;
+  }
+  .text-block {
+    max-width: 40vw;
+  }
+
+  .left {
+    margin-right: 1vw;
+  }
+
+  .right {
+    margin-left: 1vw;
+  }
 }
 
-.two-split img,
-.two-split video {
-  max-width: 40vw;
-  height: auto;
+@media only screen and (max-device-width: 699px) {
+  .two-split {
+    justify-content: flex-start;
+    max-width: 80vw;
+    margin: 0 auto;
+  }
+
+  .two-split figure {
+    margin: 0 0 1vw;
+  }
+
+  .two-split figure,
+  .two-split img,
+  .two-split video {
+    max-width: 80vw;
+    height: auto;
+    order: 2;
+  }
+
+  .text-block {
+    max-width: 80vw;
+  }
+}
+
+.text-block p {
+  margin: 0.4vw 0 2vw;
+}
+
+.profile {
+  margin: 0 0 1vw;
 }
 
 .two-split:last-child {
   margin-bottom: 5.6vw;
-}
-
-.left {
-  justify-self: right;
-  margin: 0 0.7vw 0 0;
-}
-
-.right {
-  justify-self: left;
-  margin: 0 0 0 0.7vw;
 }
 
 .two-split img,
