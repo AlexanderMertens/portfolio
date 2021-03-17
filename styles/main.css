@@ -246,7 +246,6 @@ blockquote p {
 /* CONTACT FORM*/
 .contact-form {
   max-width: 60vw;
-  padding: 1vw;
   margin: 0 auto;
 }
 
@@ -276,6 +275,7 @@ blockquote p {
 
 .contact-form textarea {
   height: 30vh;
+  max-height: 45vh;
   resize: vertical;
 }
 
