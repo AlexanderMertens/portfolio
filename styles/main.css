@@ -115,7 +115,7 @@ h2.page-title {
 
 @media only screen and (min-width: 700px) {
   .two-split {
-    justify-content: center;
+    justify-content: space-around;
   }
   .two-split figure,
   .two-split img,
