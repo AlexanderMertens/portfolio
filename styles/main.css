@@ -19,7 +19,7 @@ footer {
 }
 
 main {
-  margin: 2vw;
+  margin: 2vw 2vw 8vw;
 }
 
 h1,
@@ -40,8 +40,8 @@ h1 a {
 }
 
 h2 {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
   font-weight: 400;
   color: #398cbf;
 }
@@ -210,6 +210,7 @@ blockquote p {
 
 .projecten-container article {
   margin-right: 2vw;
+  margin-bottom: 2vw;
 }
 
 .flex {
