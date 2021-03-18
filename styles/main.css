@@ -4,7 +4,7 @@ html {
   font-weight: 400;
   line-height: 1.25em;
   color: #1b3659;
-  background-color: #a8c9de;
+  background-color: hsl(203, 45%, 82%);
 }
 
 body {
@@ -183,7 +183,7 @@ figure.bordered {
 }
 
 blockquote {
-  color: #398cbf;
+  color: #1b3659;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -344,5 +344,17 @@ blockquote p {
 
 .page-footer a {
   color: #1b3659;
+  text-decoration: underline;
+}
+
+/* links */
+p a,
+a h2 {
+  text-decoration: none;
+  color: hsl(203, 64%, 49%);
+}
+
+p a:hover,
+a.project-summary:hover h2 {
   text-decoration: underline;
 }
