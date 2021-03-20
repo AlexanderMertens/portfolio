@@ -205,11 +205,11 @@ blockquote p {
 /* PROJECTS SUMMARY PAGE */
 .projecten-container {
   display: flex;
+  justify-content: space-between;
   flex-flow: row wrap;
 }
 
 .projecten-container article {
-  margin-right: 2vw;
   margin-bottom: 2vw;
 }
 
@@ -257,7 +257,7 @@ blockquote p {
 
 .projecten-container p {
   display: inline-block;
-  margin-left: 1.4vw;
+  margin-left: 1vw;
   font-size: 1rem;
   line-height: 1.25rem;
 }
