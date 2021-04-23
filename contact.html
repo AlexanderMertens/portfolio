@@ -11,14 +11,15 @@
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="styles/main.css" rel="stylesheet" />
 </head>
 
 <body>
-  <header class="page-header">
+  <header class="page-header" id="navbar">
     <h1><a href="index.html">Alexander Mertens</a></h1>
 
-    <nav class="socials-nav">
+    <nav class="socials-nav" id="socials-nav">
       <ul>
         <li>
           <a href="mailto:alexander.mertens@student.thomasmore.be">
@@ -38,7 +39,7 @@
       </ul>
     </nav>
 
-    <nav class="main-nav">
+    <nav class="main-nav" id="main-nav">
       <ul>
         <li><a href="index.html">Over Mij</a></li>
         <li><a href="projecten.html">Projecten</a></li>
@@ -46,6 +47,9 @@
         <li><a class="active" href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <a href="javascript:void(0);" class="reveal-icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </header>
 
   <main>
@@ -79,6 +83,20 @@
       <p><a href="https://www.thomasmore.be/">Student aan Thomas More</a></p>
     </div>
   </footer>
+
+  <script>
+    function myFunction() {
+      let socials = document.getElementById("socials-nav");
+      let mainNav = document.getElementById("main-nav");
+      if (socials.style.display === "block") {
+        socials.style.display = "none";
+        mainNav.style.display = "none";
+      } else {
+        socials.style.display = "block";
+        mainNav.style.display = "block"
+      }
+    }
+  </script>
 </body>
 
 </html>
